@@ -10,5 +10,9 @@
         return this.todoItems; 
     }
 
+    addItem(task: string) {
+        this.todoItems.push(new TodoItem(task));
+    }
+
 
  }
